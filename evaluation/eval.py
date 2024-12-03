@@ -32,15 +32,17 @@ DELIMITERS = ["```hcl", "```json", "```HCL", "```Terraform", "```terraform", "``
 # Default configurations if not specified
 NUM_SAMPLES_PER_TASK = 20  # n
 EVAL_MODELS = [
-    "gpt3.5",
-    "gpt4",
-    "gemini-1.0-pro",
-    "codellama-7b",
-    "codellama-13b",
-    "codellama-34b",
-    "Magicoder_S_CL_7B",
+    # "gpt3.5",
+    # "gpt4",
+    # "gemini-1.0-pro",
+    # "codellama-7b",
+    # "codellama-13b",
+    # "codellama-34b",
+    # "Magicoder_S_CL_7B",
     "Wizardcoder33b",
     "Wizardcoder34b",
+    "Q",
+    "anthropic.claude-3-5-sonnet-20241022-v2:0"
 ]  # default to all available models
 
 PROMPT_ENHANCEMENT_STRATS = ["RAG", "COT", "FSP", "multi-turn", ""]
